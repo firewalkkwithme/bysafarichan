@@ -67,6 +67,40 @@ span:hover {
     margin: 100px;
 }
 
+.texto-animado {
+    animation-name: texto;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+
+}
+
+.texto-animadoII {
+    animation-name: textoII;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes texto {
+    from {
+        transform: translateX(1300px);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes textoII {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translate(0);
+    }
+
+}
 
 
 
